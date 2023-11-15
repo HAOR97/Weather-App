@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="finder">
+            <input type="text">
+            <span class="circle">
+                <span class="content">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </span>
+            </span>
+        </div>
+        <div class="img">
+            <img src="./icons/sun.svg" alt="">
+        </div>
+        <div class="temperatur">
+            22C
+        </div>
+        <div class="location">
+            Benglades
+        </div>
+        <div class="more">
+            <div class="humidity-speed">
+                <div class="humidity-speed-img">
+                    <i class="fa-solid fa-water fa-xl"></i>
+                </div>
+                <div class="humidity">
+                    <span class="prosent">53%</span>
+                    <span class="text">
+                        Humidity
+                    </span>
+                </div>
+            </div>
+            <div class="humidity-speed">
+                <div class="humidity-speed-img">
+                    <i class="fa-solid fa-wind fa-xl"></i>
+                </div>
+                <div class="speed">
+                    <span class="number">5.66km/h</span>
+                    <span class="text">Wind Speed</span>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
