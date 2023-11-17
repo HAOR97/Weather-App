@@ -93,3 +93,9 @@
 .humidity-speed-img{
   padding-right: 10px;
 }
+@media screen and (max-width: 600px){
+  .container{
+    margin: 5px auto;
+    width: 90%; 
+  }
+}
